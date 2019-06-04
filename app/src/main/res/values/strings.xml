@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Page</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_first">动物介绍</string>
+    <string name="rabbit">兔子</string>
+    <string name="intro_rabbit">兔（Rabbit）是哺乳类兔形目兔科下属所有的属的总称。俗称兔子。生物学分类动物界脊索动物门 脊椎动物亚门 哺乳纲 兔形目。
+兔具有管状长耳（耳长大于耳宽数倍），簇状短尾，比前肢长得多的强健后腿。共9属43种。以亚洲东部、南部、非洲和北美洲种类最多，少数种类分布于欧洲和南美洲，其中一些种类分布广泛或者被引入很多地区，而也有不少种分布非常局限。
+</string>
+    <string name="label_second">地标介绍</string>
+    <string name="dFMZ">东方明珠</string>
+    <string name="intro_dFMZ">东方明珠广播电视塔（The Oriental Pearl Radio  TV Tower）是上海的标志性文化景观之一，位于浦东新区陆家嘴，塔高约468米。该建筑于1991年7月兴建，1995年5月投入使用，承担上海6套无线电视发射业务，地区覆盖半径80公里。
+东方明珠广播电视塔是国家首批AAAAA级旅游景区。塔内有太空舱、旋转餐厅、上海城市历史发展陈列馆等景观和设施，1995年被列入上海十大新景观之一。</string>
+    <string name="label_third">名人介绍</string>
+    <string name="jJK">防弹少年团 田柾国</string>
+    <string name="intro_jJK">
+        出       生	1997年9月1日 韩国釜山广域市
+        国       籍	韩国
+        人物信息	A型 | 处女座 | 178cm | 66kg
+        经纪公司	BigHit Entertainment
+        田柾国，1997年9月1日出生于韩国釜山广域市，韩国流行乐男歌手、舞者，男子演唱组合防弹少年团主唱、领舞、副rapper。2013年6月，随组合发行首张单曲专辑《2 COOL 4 SKOOL》，并在Mnet音乐节目《M! Countdown》中正式出道；9月，随组合推出首张迷你专辑《O!RUL8,2?》。
+    </string>
+</resources>
