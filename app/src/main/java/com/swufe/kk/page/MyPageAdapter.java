@@ -9,16 +9,11 @@ import android.widget.RadioButton;
 
 public class MyPageAdapter extends FragmentPagerAdapter{
 
-    private String[] title=new String[]{"Animal","Construction","Celebrity"};
+
     public MyPageAdapter(FragmentManager manager){
         super(manager);
     }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return title[position];
-
-    }
 
     //得到Fragment组件
     @Override
@@ -27,14 +22,16 @@ public class MyPageAdapter extends FragmentPagerAdapter{
             return new FirstFragment();
         }else if(position==1){
             return new SecondFragment();
-        }else{
+        }else if(position==2){
             return new ThirdFragment();
+        }else{
+            return new FourFragment();
         }
     }
 
     //Fragment的个数
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 }
