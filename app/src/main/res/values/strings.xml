@@ -24,4 +24,27 @@
     <string name="txt3">孤独的城市，你有同伴</string>
     <string name="txt4">我们一起逛吃逛吃</string>
     <string name="btn1_label">开启旅程</string>
+    <string name="case1"> 1.西财校内：</string>
+    <string name="case1_1">瞻仰先贤——献上鲜花</string>
+    <string name="case1_2"> 参加素质拓展活动——回味往日默契</string>
+    <string name="case1_3"> 桃园食府就餐</string>
+    <string name="case1_4">探望大学老师</string>
+    <string name="case2">2.校外集体活动：</string>
+    <string name="case2_1">温江绿道——露营烧烤活动</string>
+    <string name="case2_2">普罗斯泰酒店——棋牌</string>
+    <string name="case2_3">清江黄牛肉——就餐</string>
+    <string name="case2_4"> 钻石KTV——唱响《匆匆那年》</string>
+    <string name="name">姓名</string>
+    <string name="stuno">学号</string>
+    <string name="email">邮箱</string>
+    <string name="add">工作单位</string>
+    <string name="com1">蚂蚁金融服务集团</string>
+    <string name="com1_intro">招聘职位：蚂蚁金服-高级java研发工程师
+                                </string>
+    <string name="com2">中国人寿财产保险股份有限公司</string>
+    <string name="com2_intro">招聘职位: 中国人寿理财经理（银保部）</string>
+    <string name="com3">花旗银行</string>
+    <string name="com3_intro">招聘职位：CitiGold Associate 贵宾银行专员</string>
+    <string name="recentsrc">近期资源列表</string>
+    <string name="more">查看更多</string>
 </resources>
