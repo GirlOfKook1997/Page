@@ -15,7 +15,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class CardActivity extends AppCompatActivity {
+public class CardActivity extends AppCompatActivity implements  Runnable{
    EditText inp1;
    EditText inp2;
    EditText inp3;
@@ -31,43 +31,46 @@ public class CardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
+
         inp1=findViewById(R.id.inp1);
         inp2=findViewById(R.id.inp2);
         inp3=findViewById(R.id.inp3);
         inp4=findViewById(R.id.inp4);
-
-
         submit=findViewById(R.id.submit);
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String name=inp1.getText().toString();
-                int stuId=Integer.parseInt(inp2.getText().toString());
-                String email=inp3.getText().toString();
-                String add=inp4.getText().toString();
-                Log.i(TAG, String.valueOf(stuId));
-                Log.i(TAG,name);
-                Log.i(TAG,email);
-                Log.i(TAG,add);
-                try {
-                    Class.forName("com.mysql.jdbc.Driver");
-                    Connection con=DriverManager.getConnection("jdbc:mysql://10.63.152.182:3306/data1","root","8080");
-                    PreparedStatement ps=con.prepareStatement("insert into user values(?,?,?,?)");
-                    ResultSet rs=ps.executeQuery();
-                    ps.setInt(1,stuId);
+        Thread t=new Thread();
+        t.start();
+    }
+
+    @Override
+    public void run() {
+
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection con=DriverManager.getConnection("jdbc:mysql://10.64.182.31:3306/data1","root","8080");
+            System.out.println("连接成功");
+            Log.i(TAG,"run:=连接成功");
+            //Statement sql=con.createStatement();
+            // ResultSet rs=sql.executeQuery("select * from user");
+            //Log.i(TAG,"run:1="+rs.getInt(1));
+            //Log.i(TAG,"run:2="+rs.getString(2));
+            //Log.i(TAG,"run:3="+rs.getString(3));
+            //Log.i(TAG,"run:4="+rs.getString(4));
+            //PreparedStatement ps=con.prepareStatement("insert into user values(?,?,?,?)");
+            //ResultSet rs=ps.executeQuery();
+                   /* ps.setInt(1,stuId);
                     ps.setString(2,name);
                     ps.setString(3,email);
                     ps.setString(4,add);
                     ps.executeUpdate();
+*/
+        } catch (ClassNotFoundException e) {
+            Log.i(TAG,"run:=连接不成功");
+            e.printStackTrace();
+        } catch (SQLException e) {
+            Log.i(TAG,"run:failed");
+            e.printStackTrace();
+        }
 
-                    con.close();
-                } catch (ClassNotFoundException e) {
-                    e.printStackTrace();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
 
-            }
-        });
     }
 }

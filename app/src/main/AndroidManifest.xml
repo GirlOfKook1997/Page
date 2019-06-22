@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.swufe.kk.page">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -17,14 +19,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".CompanyActivity" />
+        <activity
+            android:name=".CompanyActivity"
+            android:exported="true"></activity>
         <activity android:name=".ServiceActivity" />
         <activity android:name=".CardActivity" />
         <activity
             android:name=".NewsActivity"
-            android:exported="true" />
+            android:exported="true"></activity>
         <activity android:name=".Party4Activity" />
-        <activity android:name=".List_itemActivity"></activity>
+        <activity android:name=".List_itemActivity" />
+        <activity android:name=".IconActivity"></activity>
     </application>
 
 </manifest>

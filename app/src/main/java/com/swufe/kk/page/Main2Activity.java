@@ -28,6 +28,7 @@ public class Main2Activity extends AppCompatActivity implements Runnable{
                 startActivity(intent);
             }
         });
+
         ImageButton btn_card=findViewById(R.id.btn5);
         btn_card.setOnClickListener(new View.OnClickListener(){
             @Override

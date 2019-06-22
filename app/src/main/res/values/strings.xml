@@ -39,12 +39,17 @@
     <string name="email">邮箱</string>
     <string name="add">工作单位</string>
     <string name="com1">蚂蚁金融服务集团</string>
-    <string name="com1_intro">招聘职位：蚂蚁金服-高级java研发工程师
-                                </string>
+    <string name="com1_intro">招聘职位：蚂蚁金服-高级java研发工程师</string>
+    <string name="com1_intro_1">(支付宝（杭州）信息技术有限公司)</string>
+    <string name="time1">[2019-6-30]</string>
     <string name="com2">中国人寿财产保险股份有限公司</string>
     <string name="com2_intro">招聘职位: 中国人寿理财经理（银保部）</string>
+    <string name="com2_intro_1">(四川省成都市青羊区)</string>
+    <string name="time2">[2019-5-31]</string>
     <string name="com3">花旗银行</string>
     <string name="com3_intro">招聘职位：CitiGold Associate 贵宾银行专员</string>
+    <string name="com3_intro_1">(四川省成都市）</string>
+    <string name="time3">[2019-4-23]</string>
     <string name="recentsrc">近期资源列表</string>
     <string name="more">查看更多</string>
 </resources>
