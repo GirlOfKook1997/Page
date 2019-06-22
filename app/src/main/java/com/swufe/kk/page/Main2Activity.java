@@ -28,7 +28,14 @@ public class Main2Activity extends AppCompatActivity implements Runnable{
                 startActivity(intent);
             }
         });
-
+        ImageButton btn_icon=findViewById(R.id.btn4);
+        btn_icon.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(Main2Activity.this,IconActivity.class);
+                startActivity(intent);
+            }
+        });
         ImageButton btn_card=findViewById(R.id.btn5);
         btn_card.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -42,6 +49,14 @@ public class Main2Activity extends AppCompatActivity implements Runnable{
             @Override
             public void onClick(View v){
                 Intent intent=new Intent(Main2Activity.this,NewsActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton btn_more=findViewById(R.id.btn9);
+        btn_more.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(Main2Activity.this,MoreActivity.class);
                 startActivity(intent);
             }
         });
