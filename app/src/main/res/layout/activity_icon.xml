@@ -7,6 +7,7 @@
     tools:context=".IconActivity">
 
     <Button
+        android:id="@+id/cho"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -21,24 +22,27 @@
         />
 
     <GridLayout
+        android:layout_below="@+id/cho"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
-        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
         android:columnCount="2"
         android:paddingTop="30dp"
         android:rowCount="2">
 
         <ImageButton
+            android:id="@+id/img1"
+            android:layout_centerHorizontal="true"
             android:layout_width="160dp"
             android:layout_height="240dp"
-            android:layout_rowWeight="5"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/clock" />
+            android:background="@drawable/clock"
+            />
 
         <ImageButton
+            android:id="@+id/img2"
             android:layout_width="160dp"
             android:layout_height="240dp"
             android:layout_marginLeft="15dp"
@@ -46,14 +50,15 @@
             android:background="@drawable/bridge" />
 
         <ImageButton
+            android:id="@+id/img3"
             android:layout_width="160dp"
             android:layout_height="240dp"
-            android:layout_rowWeight="5"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/boy" />
 
         <ImageButton
+            android:id="@+id/img4"
             android:layout_width="160dp"
             android:layout_height="240dp"
             android:layout_marginLeft="15dp"

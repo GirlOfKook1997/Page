@@ -11,14 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="4dp"
         android:background="#fcb018"
-        android:layout_marginTop="3dp"
+
         />
     <TextView
         android:id="@+id/Title"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:text="itemTitle"
+        android:layout_marginLeft="10dp"
         android:layout_width="fill_parent"
         />
     <GridLayout
@@ -43,7 +45,7 @@
                 android:id="@+id/com"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
-                android:text=""
+                android:textSize="16sp"
                 />
             <TextView
                 android:id="@+id/detail"
@@ -51,6 +53,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:paddingLeft="35dp"
+                android:textSize="16sp"
                 />
         </GridLayout>
     </GridLayout>
@@ -60,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:gravity="end"
-        android:textSize="20sp"
+        android:textSize="15sp"
 
         />
 

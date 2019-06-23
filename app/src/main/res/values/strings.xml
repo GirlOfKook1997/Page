@@ -50,6 +50,14 @@
     <string name="com3_intro">招聘职位：CitiGold Associate 贵宾银行专员</string>
     <string name="com3_intro_1">(四川省成都市）</string>
     <string name="time3">[2019-4-23]</string>
+    <string name="com4">西安华为技术有限公司</string>
+    <string name="com4_intro">招聘职位: 资深devops研发工程师</string>
+    <string name="com4_intro_1">(成都郫都区华为技术有限公司)</string>
+    <string name="time4">[2019-3-31]</string>
+    <string name="com5">四川今日头条科技有限公司</string>
+    <string name="com5_intro">招聘职位: 后台研发工程师</string>
+    <string name="com5_intro_1">(成都武侯区OCG国际中心)</string>
+    <string name="time5">[2019-3-2]</string>
     <string name="recentsrc">近期资源列表</string>
     <string name="more">查看更多</string>
 </resources>

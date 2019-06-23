@@ -43,7 +43,7 @@
         <TextView
             android:id="@+id/label1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="11dp"
             android:text="@string/name"
@@ -62,7 +62,7 @@
         <TextView
             android:id="@+id/label2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:text="@string/stuno"
@@ -80,7 +80,7 @@
         <TextView
             android:id="@+id/label3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:text="@string/email"

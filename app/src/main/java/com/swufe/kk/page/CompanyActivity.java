@@ -61,14 +61,15 @@ public class CompanyActivity extends ListActivity implements AdapterView.OnItemL
 
     private void initListView() {
 
-        int[] pic={R.mipmap.com_pic1,R.mipmap.com_pic2,R.mipmap.com_pic3};
-        String[] tit={this.getString(R.string.com1),this.getString(R.string.com2),this.getString(R.string.com3)};
-        String[] com={this.getString(R.string.com1_intro),this.getString(R.string.com2_intro),this.getString(R.string.com3_intro)};
-        String[] det={this.getString(R.string.com1_intro_1),this.getString(R.string.com2_intro_1),this.getString(R.string.com3_intro_1)};
-        String[] time={this.getString(R.string.time1),this.getString(R.string.time2),this.getString(R.string.time3)};
+        int[] pic={R.mipmap.com_pic1,R.mipmap.com_pic2,R.mipmap.com_pic3,R.mipmap.huawei,R.mipmap.deadline};
+        String[] tit={this.getString(R.string.com1),this.getString(R.string.com2),this.getString(R.string.com3),this.getString(R.string.com4),this.getString(R.string.com5)};
+        String[] com={this.getString(R.string.com1_intro),this.getString(R.string.com2_intro),this.getString(R.string.com3_intro),this.getString(R.string.com4_intro),this.getString(R.string.com5_intro
+        )};
+        String[] det={this.getString(R.string.com1_intro_1),this.getString(R.string.com2_intro_1),this.getString(R.string.com3_intro_1),this.getString(R.string.com4_intro_1),this.getString(R.string.com5_intro_1)};
+        String[] time={this.getString(R.string.time1),this.getString(R.string.time2),this.getString(R.string.time3),this.getString(R.string.time4),this.getString(R.string.time5)};
 
         listItems =new ArrayList<HashMap<String, Object>>();
-        for (int i = 0; i <3; i++) {
+        for (int i = 0; i <5; i++) {
             HashMap<String,Object> map=new HashMap<>();
             map.put("tab",R.id.tab);
             map.put("Title",tit[i]);
@@ -93,14 +94,15 @@ public class CompanyActivity extends ListActivity implements AdapterView.OnItemL
 
     @Override
     public void run() {
-        int[] pic={R.mipmap.com_pic1,R.mipmap.com_pic2,R.mipmap.com_pic3};
-        String[] tit={this.getString(R.string.com1),this.getString(R.string.com2),this.getString(R.string.com3)};
-        String[] com={this.getString(R.string.com1_intro),this.getString(R.string.com2_intro),this.getString(R.string.com3_intro)};
-        String[] det={this.getString(R.string.com1_intro_1),this.getString(R.string.com2_intro_1),this.getString(R.string.com3_intro_1)};
-        String[] time={this.getString(R.string.time1),this.getString(R.string.time2),this.getString(R.string.time3)};
+        int[] pic={R.mipmap.com_pic1,R.mipmap.com_pic2,R.mipmap.com_pic3,R.mipmap.huawei,R.mipmap.deadline};
+        String[] tit={this.getString(R.string.com1),this.getString(R.string.com2),this.getString(R.string.com3),this.getString(R.string.com4),this.getString(R.string.com5)};
+        String[] com={this.getString(R.string.com1_intro),this.getString(R.string.com2_intro),this.getString(R.string.com3_intro),this.getString(R.string.com4_intro),this.getString(R.string.com5_intro
+        )};
+        String[] det={this.getString(R.string.com1_intro_1),this.getString(R.string.com2_intro_1),this.getString(R.string.com3_intro_1),this.getString(R.string.com4_intro_1),this.getString(R.string.com5_intro_1)};
+        String[] time={this.getString(R.string.time1),this.getString(R.string.time2),this.getString(R.string.time3),this.getString(R.string.time4),this.getString(R.string.time5)};
 
         listItems =new ArrayList<HashMap<String, Object>>();
-        for (int i = 0; i <3; i++) {
+        for (int i = 0; i <5; i++) {
             HashMap<String,Object> map=new HashMap<>();
             map.put("tab",R.id.tab);
             map.put("Title",tit[i]);
